@@ -286,7 +286,7 @@
             position: relative;
         }
 
-        .content button {
+        .content .adminsubmitbtn {
             float: right; 
             background-color: #8EB4E3; 
             color: white; 
@@ -367,7 +367,7 @@
         <div class="dashboard">
             <div class="content_header">
                 <h1>기본설정</h1>
-                <p>HOME > 환경설정 > <b>기본설정</b></p>
+                <p>HOME > 환경설정 > <strong>기본설정</strong></p>
             </div>
             <div class="content">
                 <section>
@@ -454,7 +454,7 @@
                                     <td><input type="text" name="detail_address" placeholder="(상섬동, WeWork 빌딩) 7층"></td> 
                                 </tr>
                             </table>
-                            <button type="submit">수정하기</button>
+                            <button type="submit" class="adminsubmitbtn">수정하기</button>
                         </form>
                     </article>
                     <article class="csinfo">
@@ -482,7 +482,7 @@
                                     <td><input type="text" name="EFT_number" placeholder="1234-1234"></td> 
                                 </tr>
                             </table>
-                            <button type="submit">수정하기</button>
+                            <button type="submit" class="adminsubmitbtn">수정하기</button>
                         </form>
                     </article>
                     <article class="admincopyright">
@@ -498,12 +498,11 @@
                                     <td><input type="text" name="company_hp" placeholder="Copyright LotteON. All rights reserved"></td> 
                                 </tr>
                             </table>
-                            <button type="submit">수정하기</button>
+                            <button type="submit" class="adminsubmitbtn">수정하기</button>
                         </form>
                     </article>
                 </section>
             </div>
-
         </div>
     </div>
 </main>
@@ -644,5 +643,6 @@
             }
         });
     });
+
 </script>
 </html>
