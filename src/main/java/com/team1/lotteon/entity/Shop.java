@@ -23,4 +23,8 @@ public class Shop {
     @Embedded
     private Address address;
     private boolean isActive;
+
+    @OneToOne(fetch = FetchType.LAZY, mappedBy = "shop")
+    private SellerMember sellerMember;
+
 }
